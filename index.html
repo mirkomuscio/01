@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIT</title>
 </head>
+
 <body>
     <h1>Trabajo 02 GitHub</h1>
     <h2>Ejercicio 1: Listas</h2>
     <!--Pregunta 1-->
     <h3>1.1- ¿Para qué sirve la etiqueta ul? Dar un ejemplo en donde lo utilizarías.</h3>
-    <p>ul de <strong>"unordered list"</strong> crea una lista no ordenada. Esto quiere decir que no tien ni un orden numerico o alfabeto, lo podria utilizar para una lista nombres.</p>
+    <p>ul de <strong>"unordered list"</strong> crea una lista no ordenada. Esto quiere decir que no tien ni un orden
+        numerico o alfabeto, lo podria utilizar para una lista nombres.</p>
     <!--Pregunta 2-->
     <h3>1.2- ¿Para qué sirve la etiqueta ol? Dar un ejemplo en donde lo utilizarías.</h3>
-    <p>Esta etiqueta sirve para definir listas ordenadas de manera numerica o alfabeta. ol es de <strong>"Ordered List"</strong>.Por ejemplo este lo utilizaria en una lista de ingredientes</p>
+    <p>Esta etiqueta sirve para definir listas ordenadas de manera numerica o alfabeta. ol es de <strong>"Ordered
+            List"</strong>.Por ejemplo este lo utilizaria en una lista de ingredientes</p>
     <!--Pregunta 3-->
     <h3>1.3- ¿Para qué sirve la etiqueta dl? Dar un ejemplo en donde lo utilizarías.</h3>
-    <p>La etiqueta dl representa una <strong>"Lista descriptiva"</strong>. Es decir que esta elemento encierra un lista de terminos y descripciones, un ejemplo para su uso podria ser de uso personal.</p>
+    <p>La etiqueta dl representa una <strong>"Lista descriptiva"</strong>. Es decir que esta elemento encierra un lista
+        de terminos y descripciones, un ejemplo para su uso podria ser de uso personal.</p>
     <!--Pregunta 4-->
     <h3>1.4- ¿Para qué sirve la etiqueta li? Dar un ejemplo en donde lo utilizarías.</h3>
     <p>La etiqueta li del ingles <strong>"Item List</strong>, declara cada uno de los elementos.</p>
@@ -29,7 +34,8 @@
         <li>Chile</li>
     </ul>
     <!--Pregunta 6-->
-    <h3>1.6- Crea una lista ordenada con cinco elementos (li) que contengan los días de la semana en orden alfabético.</h3>
+    <h3>1.6- Crea una lista ordenada con cinco elementos (li) que contengan los días de la semana en orden alfabético.
+    </h3>
     <ol>
         <li>Lunes</li>
         <li>Martes</li>
@@ -39,7 +45,72 @@
         <li>Sabado</li>
         <li>Domingo</li>
     </ol>
+    <!--Pregunta 7-->
+    <h3>1.7- Anida una lista desordenada dentro de otro elemento li de otra lista desordenada para crear una lista
+        anidada de frutas y verduras. </h3>
+    <ul>
+        <li> <em>Frutas</em>
+            <ul>
+                <li>banana</li>
+                <li>Sandia</li>
+                <li>Limon</li>
+            </ul>
+        </li>
+        <li> <em>Verduras</em>
+            <ul>
+                <li>Zucchini</li>
+                <li>Calabaza</li>
+                <li>Berenjena</li>
+            </ul>
 
+        </li>
+    </ul>
 
+    <!--Pregunta 8-->
+    <h3>1.8- Crea una lista ordenada, respetando las negritas y el subrayado, que contenga los siguientes pasos para
+        hacer una tarta de manzana: a) Pelar y cortar las manzanas en rodajas finas. b) Mezclar la canela, el azúcar y
+        la harina en un tazón. c) Colocar la masa de la tarta en un molde para horno. d) Colocar las manzanas sobre la
+        masa de la tarta. e) Hornear la tarta durante 45 minutos.</h3>
+    <ol type="a">
+        <li><u>Pelar</u> y <u>cortar</u> las <strong>manzanas</strong> en rodajas finas.</li>
+        <li><u>Mezclar</u> la <strong>canela</strong>, el <strong>azucar</strong> y la <strong>harina</strong> en un
+            tazon.</li>
+        <li><u>Colocar</u> la <strong>masa</strong> de la <strong>tarta</strong> en un malde para horno.</li>
+        <li><u>Colocae</u> las <strong>manzanas</strong> sobre la masa de la tarta.</li>
+        <li><u>Hornear</u> la <strong>tarta</strong> durante 45 minutos</li>
+    </ol>
+    <!--Pregunta 9-->
+    <h3>1.9- Existe un atributo que se aplica a la etiqueta ol para ver la lista en orden descendente en vez de
+        ascendente, ¿cuál es ese atributo? Utilizar la referencia de atributos de HTML
+        https://developer.mozilla.org/es/docs/Web/HTML/Attributes</h3>
+    <p>Este atributo es "reversed" y lo que hace es ordenar la lista de manera descendente. </p>
+
+    <!--Pregunta 10-->
+    <h3>1.10- Utilizando el atributo anterior, crear una lista con cuatro elementos que contengan nombres de películas
+        de terror de forma descendente.</h3>
+    <ol reversed>
+        <li>Scream</li>
+        <li>Anabell</li>
+        <li>La noche del demonio</li>
+    </ol>
+
+    <h1>Ejercicio 2: Enlaces</h1>
+
+    <!--Pregunta 1-->
+    <h3>2.1- ¿qué es una url absoluta?</h3>
+    <p>Estas proporcionan la URL completa, incluido el protocolo (http: // o https: //), el
+        nombre de dominio y la ruta como necesario. Debe usar una URL absoluta cuando apunta a un documento en la web
+        es decir, no en su propio servidor.
+    </p>
+
+    <!--Pregunta 2-->
+    <h3>2.2- ¿qué es una url relativa?</h3>
+    <p>Las URL relativas describen la ruta a un archivo relativo al actual documento. Las URL relativas se pueden usar
+        cuando se vincula a otro documento en su propio sitio. No requiere el protocolo o nombre de dominio, solo el nombre de ruta.
+    </p>
+
+    <!--Pregunta 3-->
+    <h3>2.3- Crear en el mismo proyecto, una carpeta llamada: materias</h3>
 </body>
+
 </html>
